@@ -8,9 +8,9 @@ POST:
 
 ```json
 {
-    bigImage: "base64  DATA",
-    smallImage: "base64 DATA",
-    canvasWidth: 280
+    "bigImage": "base64  DATA",
+    "smallImage": "base64 DATA",
+    "canvasWidth": 280
 }
 ```
 
@@ -18,7 +18,7 @@ RETURN:
 
 ```json
 {
-    code:200,
-    msg: "computedValue"
+    "code":200,
+    "msg": "computedValue"
 }
 ```
